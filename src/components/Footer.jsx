@@ -1,13 +1,12 @@
 function Footer(){
+    const year = new Date().getFullYear()
     return (
-        <div className="flex items-center justify-center w-full h-24 bg-gray-900">
-            <p className="text-gray-300 ">Lessons by Sparrow</p>
-            {/* email
-            phone */}
+        <div className="flex items-center justify-around w-full p-12 bg-stone-900">
+            <p className="text-stone-300 ">&copy; {year} Lessons by Sparrow</p>
+            <a className="text-stone-300" href="mailto:earnold@outlook.com">EMAIL</a>
+            <a className="text-stone-300" href="tel:239-289-3414">CALL</a>            
         </div> 
    )
 }
 
 export default Footer
-
-// flex items-center justify-center w-full text-center bg-gray-900 

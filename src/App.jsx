@@ -5,8 +5,8 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen font-rubik">
-      <Header/>
+    <div className="flex flex-col h-dvh font-rubik">
+      <Header />
       <Body />
       <Footer />
     </div>
@@ -14,3 +14,6 @@ function App() {
 }
 
 export default App
+
+
+// min-h-screen flex flex-col flex-grow flex border-4 border-green-400 

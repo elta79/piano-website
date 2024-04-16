@@ -4,9 +4,9 @@ import { AnchorLink } from "react-anchor-navigation"
 
 function Header(){
     return (
-        <div className="fixed top-0 flex flex-col items-center w-full px-4 py-4 bg-gray-900 shadow-md lg:flex-row lg:items-end">
-            <div className="flex items-center w-full border-4 border-red-600">
-                <div className="relative w-20 h-20 p-8 bg-yellow-400 rounded-full">
+        <div className="fixed top-0 flex flex-col items-center w-full px-4 py-4 shadow-md bg-stone-900 lg:flex-row lg:items-end">
+            <div className="flex items-center w-full ">
+                <div className="relative w-20 h-20 p-8 rounded-full bg-amber-400">
                     <svg className="absolute w-12 h-12 fill-current left-4 top-4"
                         fill="#000000" 
                         height="800px" 
@@ -25,10 +25,10 @@ function Header(){
                         </g>
                     </svg>
                 </div>            
-                <AnchorLink href="#" className="pl-8 text-4xl text-gray-300 ">Lessons by Sparrow</AnchorLink>
+                <AnchorLink href="#" className="pl-8 text-4xl text-stone-300 ">Lessons by Sparrow</AnchorLink>
             </div>
             
-            <div className="flex justify-between w-full text-xl text-gray-300 border-4 border-blue-600 lg:w-1/3">
+            <div className="flex justify-between w-full text-xl text-stone-300 lg:w-1/3">
                 <AnchorLink href="#lessons" className="">Lessons</AnchorLink>
                 <AnchorLink href="#about" className="">About</AnchorLink>
                 <AnchorLink href="#contact" className="">Contact</AnchorLink>                
