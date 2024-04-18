@@ -5,7 +5,7 @@ import Form from "./Form"
 function Body(){
     return(
         <div className="flex flex-col flex-grow w-full bg-stone-700 no-scrollbar">
-            <section className="flex flex-col-reverse pt-40 border-2 border-red-400 h-dvh lg:flex-row lg:pt-24">
+            <section className="flex flex-col-reverse pt-40 h-dvh lg:flex-row lg:pt-24">
                 <div className="flex flex-col p-6 lg:w-1/2 lg:justify-around">
                     <h1 className="pt-6 text-6xl text-stone-200">Unlock Your Musical Potential!</h1>
                     <p className="pt-6 text-3xl text-stone-400 lg:leading-normal lg:text-4xl lg:pr-20">Learn to play piano with personalized lessons tailored to your skill level and musical goals. From beginners to advanced players, we offer individual sessions designed to nurture your passion for music.</p>
@@ -13,15 +13,18 @@ function Body(){
                         <p className="text-lg text-white lg:text-4xl lg:pr-20">Enroll in lessons now!</p>
                         <a href="#" className="p-2 font-semibold tracking-widest border-t-2 border-l-2 bg-amber-400 text-amber-950 border-amber-300">Contact Me</a>
                     </div>                    
-                </div>  
-                <img src="../public/images/fullPiano.jpg" className="lg:w-1/2" />
+                </div>    
+                <div className="border-2 border-red-400 lg:overflow-hidden lg:w-1/2">
+                <img src="../images/fullPiano2.png" className="lg:object-contain" />
+                </div>             
+                
             </section>
 
             <AnchorSection id="lessons" />
-            <section className="flex flex-col items-center justify-center border-2 border-red-500 h-dvh">
+            <section className="flex flex-col items-center justify-center h-dvh">
                 <h2 className="pb-8 text-4xl text-stone-200 ">Lesson Information</h2>
                 <div className="flex flex-col lg:flex-row">                    
-                    <img src="../public/images/sheetmusic.jpg" className="p-6 lg:w-1/2" /> 
+                    <img src="../images/sheetmusic.jpg" className="p-6 lg:w-1/2" /> 
                     <div>
                         <h3 className="px-6 pt-6 text-3xl text-stone-300 lg:leading-relaxed">Offering In-Home Lessons</h3>       
                         <ul>
@@ -38,10 +41,10 @@ function Body(){
             </section>
 
             <AnchorSection id="about" />
-            <section className="flex flex-col items-center justify-center border-2 border-red-600 h-dvh">
+            <section className="flex flex-col items-center justify-center h-dvh">
                 <h2 className="pb-6 text-4xl text-stone-200">About Earl</h2>
                 <div className="flex flex-col lg:flex-row">
-                    <img src="../public/images/earl.png" className="w-2/3 m-auto my-6 border-8 border-stone-600"/>  
+                    <img src="../images/earl.png" className="w-2/3 m-auto my-6 border-8 border-stone-600"/>  
                     <div className>
                     <p className="px-6 pt-6 text-lg text-stone-200">Earl boasts over two decades of experience as a music educator. He earned his Bachelor&apos;s degree in music education with a vocal emphasis from Florida A&M University in 2002, followed by a Master&apos;s degree in Music Education from the University of Florida in 2010.</p>
                     <p className="px-6 pt-6 text-lg text-stone-200">With a remarkable tenure of 35 years, Earl has been instrumental as a music director in various ministries. His expertise extends to directing music for numerous productions, including recent successes such as <q>Sistas the Musical</q>, <q>Avenue Q</q>, and <q>The Color Purple</q>.</p>
@@ -53,7 +56,7 @@ function Body(){
             </section>
             
             <AnchorSection id="contact" />
-            <section className="flex flex-col items-center justify-center border-2 border-red-700 h-dvh">
+            <section className="flex flex-col items-center justify-center h-dvh">
                 <h2 className="text-4xl text-stone-200">Contact</h2>
                 <Form />
             </section>
