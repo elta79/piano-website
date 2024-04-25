@@ -15,7 +15,7 @@ function Body(){
                     </div>                    
                 </div>    
                 <div className="lg:overflow-hidden lg:w-1/2">
-                    <img src="../images/fullPiano2.jpg" alt="side angle of piano"className="lg:object-contain" />
+                <img src="../images/fullPiano2.jpg" alt="side angle of piano"className="lg:object-contain" />
                 </div>             
                 
             </section>
@@ -23,8 +23,8 @@ function Body(){
             <AnchorSection id="lessons" />
             <section className="flex flex-col items-center justify-center pt-24 lg:pl-24 lg:h-dvh lg:mt-64">
                 <h2 className="pb-8 text-4xl text-stone-200 ">Lesson Information</h2>
-                <div className="flex flex-col lg:flex-row">                    
-                    <img src="../images/sheetmusic.jpg" alt="sheet music" className="p-6 aspect-square lg:w-1/2 lg:mr-16" /> 
+                <div className="flex flex-col lg:flex-row-reverse">                    
+                    <img src="../images/sheetmusic.jpg" alt="sheet music" className="p-8 lg:w-1/2 lg:mr-16" /> 
                     <div>
                         <h3 className="px-8 pt-6 text-3xl text-stone-300 lg:leading-relaxed">Offering In-Home Lessons</h3>       
                         <ul>
@@ -43,12 +43,9 @@ function Body(){
             <AnchorSection id="about" />
             <section className="flex flex-col items-center justify-center pt-24 lg:h-dvh lg:p-24 lg:mt-64 ">
                 <h2 className="pb-6 text-4xl text-stone-200">About Earl</h2>
-                <div className="flex flex-col lg:flex-row-reverse">
-                    <div className="">
-                    <img src="../images/earl.png" alt="man in suit standing with arms outstretched"className="w-2/3 m-auto my-6 border-8 border-stone-600 lg:w-dvw "/>  
-                    </div>
-                    
-                    <div className="">
+                <div className="flex flex-col lg:flex-row">
+                    <img src="../images/earl.png" alt="man in suit standing with arms outstretched"className="w-2/3 m-auto my-6 border-8 border-stone-600"/>  
+                    <div className>
                         <p className="px-8 pt-6 text-lg text-stone-200 md:text-lg lg:text-xl">Earl boasts over two decades of experience as a music educator. He earned his Bachelor&apos;s degree in music education with a vocal emphasis from Florida A&M University in 2002, followed by a Master&apos;s degree in Music Education from the University of Florida in 2010.</p>
                         <p className="px-8 pt-6 text-lg text-stone-200 md:text-lg lg:text-xl">With a remarkable tenure of 35 years, Earl has been instrumental as a music director in various ministries. His expertise extends to directing music for numerous productions, including recent successes such as <q>Sistas the Musical</q>, <q>Avenue Q</q>, and <q>The Color Purple</q>.</p>
                         <p className="px-8 pt-6 text-lg text-stone-200 md:text-lg lg:text-xl">Earl&apos;s teaching philosophy revolves around making music lessons enjoyable by incorporating popular music that resonates with his students. Whether they&apos;re learning drums, piano, or vocal techniques, Earl ensures that his students have fun while mastering their craft.</p> 
