@@ -15,7 +15,7 @@ function Body(){
                     </div>                    
                 </div>    
                 <div className="lg:overflow-hidden lg:w-1/2">
-                <img src="../images/fullPiano2.png" alt="side angle of piano"className="lg:object-contain" />
+                <img src="../images/fullPiano2.jpg" alt="side angle of piano"className="lg:object-contain" />
                 </div>             
                 
             </section>
