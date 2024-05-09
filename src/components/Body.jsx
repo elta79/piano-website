@@ -4,7 +4,7 @@ import Form from "./Form"
 
 function Body(){
     return(
-        <div className="flex flex-col flex-grow w-full bg-stone-700">
+        <div className="flex flex-col flex-grow w-full h-fit bg-stone-700">
             <section className="flex flex-col-reverse lg:h-dvh lg:flex-row lg:pt-32">
                 <div className="flex flex-col p-6 lg:w-1/2 lg:justify-around lg:pl-24">
                     <h1 className="pt-6 text-6xl text-stone-200">Unlock Your Musical Potential!</h1>
